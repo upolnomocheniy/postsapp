@@ -1,0 +1,10 @@
+
+>
+java:S1604I"(Make this anonymous inner class a lambda(ÿö„§
+>
+java:S1604R"(Make this anonymous inner class a lambda(ıãÒë
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”§Üéıÿÿÿÿ
+s
+java:S1450"]Remove the "databaseHelper" field and declare it as a local variable in the relevant methods.(–Ø¯
+H
+java:S1068"2Remove this unused "databaseHelper" private field.(–Ø¯

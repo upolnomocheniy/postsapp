@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/postsListFragment">
+    <fragment
+            android:id="@+id/postsListFragment"
+            android:name="com.kvitka.postsApp.fragments.PostsListFragment"
+            android:label="fragment_posts_list"
+            tools:layout="@layout/fragment_posts_list">
+        <action
+                android:id="@+id/action_postsListFragment_to_postsDetailsFragment"
+                app:destination="@id/postsDetailsFragment"/>
+        <action
+                android:id="@+id/action_postsListFragment_to_postsCreateFragment"
+                app:destination="@id/postsCreateFragment"/>
+    </fragment>
+    <fragment
+            android:id="@+id/postsDetailsFragment"
+            android:name="com.kvitka.postsApp.fragments.PostsDetailsFragment"
+            android:label="fragment_posts_details"
+            tools:layout="@layout/fragment_posts_details"/>
+    <fragment
+        android:id="@+id/postsCreateFragment"
+        android:name="com.kvitka.postsApp.fragments.CreatePostsItemFragment"
+        android:label="fragment_create"
+        tools:layout="@layout/fragment_posts_create" />
+</navigation>
